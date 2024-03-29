@@ -28,5 +28,5 @@ resource "google_compute_firewall" "allow-http" {
   }
 
   target_tags   = ["http-server"]
-  source_ranges = ["10.128.0.0/9"]
+  source_ranges = ["0.0.0.0/0"]
 }
